@@ -1,3 +1,5 @@
+'use client';
+
 import GoogleMapSection from './../components/Home/GoogleMapSection';
 import SearchSection from './../components/Home/SearchSection';
 import { DestinationContext } from './../context/Destinationcontext';
