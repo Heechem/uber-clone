@@ -9,8 +9,8 @@ import {
   useJsApiLoader,
 } from '@react-google-maps/api';
 
-import { SourceContext } from '@/context/SourceContext';
-import { DestinationContext } from '@/context/Destinationcontext';
+import { SourceContext } from '../../context/SourceContext';
+import { DestinationContext } from '../../context/Destinationcontext';
 
 function GoogleMapSection() {
   const { source, setSource } = useContext(SourceContext);

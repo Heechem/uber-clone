@@ -1,7 +1,7 @@
 'use client';
 
-import { DestinationContext } from '@/context/Destinationcontext';
-import { SourceContext } from '@/context/SourceContext';
+import { DestinationContext } from '../../context/Destinationcontext';
+import { SourceContext } from '../../context/SourceContext';
 import Image from 'next/image';
 import React, { useContext, useEffect, useState } from 'react';
 import GooglePlacesAutocomplete from 'react-google-places-autocomplete';

@@ -1,5 +1,5 @@
 'use client';
-import CheckoutForm from './../components/Home/CheckoutForm';
+import CheckoutForm from '../../components/Home/CheckoutForm';
 import { loadStripe } from '@stripe/stripe-js';
 import { useSearchParams } from 'next/navigation';
 import { Elements } from '@stripe/react-stripe-js';
